@@ -1,0 +1,17 @@
+# --- Python (Backend) ---
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/.env
+backend/db.sqlite3  # If you use a local database later
+
+# --- React (Frontend) ---
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# --- OS / IDE Specific ---
+.DS_Store             # Mac specific
+.vscode/              # Only ignore this if you don't want to share your VS Code settings
+*.log
